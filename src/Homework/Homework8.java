@@ -34,8 +34,9 @@ public class Homework8 {
             } else if (i==12) {
                 System.out.println(i + " = December");
             }
-
-
+                else {
+                System.out.println("All statement is not tru ");
+            }
         }
         }
 
