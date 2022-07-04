@@ -9,7 +9,7 @@ public class Homework7 {
 
         int sum = 0;
         for (int i = 20; i <= 200; i++) {
-            sum +=i;
+            sum = sum +i;
 
             //как общую сумму вывести в одну строку??????
 

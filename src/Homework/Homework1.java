@@ -18,8 +18,8 @@ public class Homework1 {
 
             //увеличение каждого элемента массива и сохраниение его?????????????????
            //new_arr1[i]= new_arr1[i] *=0.10f;   // вывели 10% от каждщго эл
-           // new_arr1[i]= new_arr1[i] +10; // +10 к каждому эл
-           new_arr1[i]= new_arr1[i]+=(new_arr1[i]*10/100);
+           new_arr1[i]= new_arr1[i] *1.1f; // +10 к каждому эл
+           //new_arr1[i]= new_arr1[i]+=(new_arr1[i]*10/100);
            System.out.println(new_arr1[i]);
 
         }

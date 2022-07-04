@@ -13,19 +13,14 @@ public class Homework17 {
         }
         //max
         float max = new_array[0];
-       /* for (int i = 0; i < a; i++) {
-            if (new_array[i] > max) ;{
-                max = new_array[i];*/
-
-        for (float i: new_array) {
-            if (i>max);
-            max = i;
-
+        for (int i = 0; i < a; i++) {
+            if (new_array[i] > max) {
+                max = new_array[i];
             }
-
             System.out.println(" max is " + max);
 
         }
 
-    }
 
+    }
+}
